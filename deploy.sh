@@ -70,12 +70,12 @@ parse_args() {
 	# vars should be declared here, with sane defaults if applicable.
 
 	# Source directory & target branch.
-	deploy_directory=${GIT_DEPLOY_DIR:-dist}
-	deploy_branch=${GIT_DEPLOY_BRANCH:-gh-pages}
+	deploy_directory=${GIT_DEPLOY_DIR:-public}
+	deploy_branch=${GIT_DEPLOY_BRANCH:-master}
 
 	#if no user identity is already set in the current git environment, use this:
-	default_username=${GIT_DEPLOY_USERNAME:-deploy.sh}
-	default_email=${GIT_DEPLOY_EMAIL:-}
+	default_username=${GIT_DEPLOY_USERNAME:-anayini}
+	default_email=${GIT_DEPLOY_EMAIL:-aanayini@gmail.com}
 
 	#repository to deploy to. must be readable and writable.
 	repo=${GIT_DEPLOY_REPO:-origin}
@@ -109,6 +109,8 @@ main() {
 		
 	previous_branch=`git rev-parse --abbrev-ref HEAD`
 
+	build
+
 	if [ ! -d "$deploy_directory" ]; then
 		echo "Deploy directory '$deploy_directory' does not exist. Aborting." >&2
 		return 1
@@ -135,6 +137,8 @@ main() {
 	fi
 
 	restore_head
+
+	cleanup
 }
 
 initial_deploy() {
@@ -171,6 +175,21 @@ commit+push() {
 	#--quiet is important here to avoid outputting the repo URL, which may contain a secret token
 	git push --quiet $repo $deploy_branch
 	enable_expanded_output
+}
+
+#generate source to deploy
+build() {
+	if [ $deploy_directory ]; then
+		echo Generating Hugo static site.
+		hugo -d $deploy_directory
+	fi
+}
+
+cleanup() {
+	if [ $deploy_directory ]; then
+		rm -rf $deploy_directory
+		echo "Removed generated static site files from $deploy_directory."
+	fi
 }
 
 #echo expanded commands as they are executed (for debugging)
