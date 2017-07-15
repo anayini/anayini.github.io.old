@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on b³</title>
-    <link>https://anayini.github.io/post/</link>
-    <description>Recent content in Posts on b³</description>
+    <title>Ios on b³</title>
+    <link>https://anayini.github.io/tags/ios/</link>
+    <description>Recent content in Ios on b³</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>aanayini@gmail.com (Arjun Nayini)</managingEditor>
     <webMaster>aanayini@gmail.com (Arjun Nayini)</webMaster>
     <lastBuildDate>Tue, 11 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://anayini.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://anayini.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <guid>https://anayini.github.io/post/2017-07-11-ios-charles-proxy/</guid>
       <description>I was recently working on a project where I encountered a bit of slow down in debugging some API calls. The project can be simplified as grabbing data from a new API, parsing and persisting the data, and rendering it in a UITableView.
 In this particular case, the development of the backend API was being done by a separate set of people and was using a new backend infrastructure separate from the old API infrastructure.</description>
-    </item>
-    
-    <item>
-      <title>Review of Phuket Dragon Muay Thai</title>
-      <link>https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/</link>
-      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
-      <author>aanayini@gmail.com (Arjun Nayini)</author>
-      <guid>https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/</guid>
-      <description>It is a hot, humid morning on Phuket&amp;rsquo;s Soi Tai-ed, what has been called a mecca for &amp;ldquo;fitness holidays&amp;rdquo;. All year round, foreigners come here from all over the world to spend anywhere from weeks to months getting in shape. This single street has dozens of gyms and studios with people learning everything from weightlifting to yoga to MMA. Still, the street is most famous as a destination to learn Thailand&amp;rsquo;s national sport: Muay Thai.</description>
     </item>
     
   </channel>

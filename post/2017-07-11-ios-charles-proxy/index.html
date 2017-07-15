@@ -5,9 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Posts</title>
-  <meta property="og:title" content="Posts" />
-  <meta name="twitter:title" content="Posts" />
+  <title>iOS Network Debugging With Charles Proxy</title>
+  <meta property="og:title" content="iOS Network Debugging With Charles Proxy" />
+  <meta name="twitter:title" content="iOS Network Debugging With Charles Proxy" />
+  <meta name="description" content="I was recently working on a project where I encountered a bit of slow down in debugging some API calls. The project can be simplified as grabbing data from a new API, parsing and persisting the data, and rendering it in a UITableView.
+In this particular case, the development of the backend API was being done by a separate set of people and was using a new backend infrastructure separate from the old API infrastructure.">
+  <meta property="og:description" content="I was recently working on a project where I encountered a bit of slow down in debugging some API calls. The project can be simplified as grabbing data from a new API, parsing and persisting the data, and rendering it in a UITableView.
+In this particular case, the development of the backend API was being done by a separate set of people and was using a new backend infrastructure separate from the old API infrastructure.">
+  <meta name="twitter:description" content="I was recently working on a project where I encountered a bit of slow down in debugging some API calls. The project can be simplified as grabbing data from a new API, parsing and persisting the data, …">
   <meta name="author" content="Arjun Nayini"/>
   <link href='https://anayini.github.io/img/sphere.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://anayini.github.io/images/avatars/github.jpg" />
@@ -15,12 +20,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@anayini" />
   <meta name="twitter:creator" content="@anayini" />
-  <meta property="og:url" content="https://anayini.github.io/post/" />
+  <meta property="og:url" content="https://anayini.github.io/post/2017-07-11-ios-charles-proxy/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="b³" />
 
   <meta name="generator" content="Hugo 0.24.1" />
-  <link rel="canonical" href="https://anayini.github.io/post/" />
+  <link rel="canonical" href="https://anayini.github.io/post/2017-07-11-ios-charles-proxy/" />
   <link rel="alternate" href="https://anayini.github.io/index.xml" type="application/rss+xml" title="b³">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -141,14 +146,33 @@
 
 
     
+  
+  
+  
+
+
+
+
+  
+
   <header class="header-section ">
+    
     <div class="intro-header no-img">
+      
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>Posts</h1>
-              <hr class="small">
+            <div class="post-heading">
+              <h1>iOS Network Debugging With Charles Proxy</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on July 11, 2017
+  
+</span>
+
+
+                
             </div>
           </div>
         </div>
@@ -156,83 +180,74 @@
     </div>
   </header>
 
+
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
         
-        <div class="posts-list">
-          
-            <article class="post-preview">
-              <a href="https://anayini.github.io/post/2017-07-11-ios-charles-proxy/">
-                <h2 class="post-title">iOS Network Debugging With Charles Proxy</h2>
-    
-                
-              </a>
-    
-              <p class="post-meta">
-                Posted on July 11, 2017
-              </p>
-              <div class="post-entry">
-                
-                  I was recently working on a project where I encountered a bit of slow down in debugging some API calls. The project can be simplified as grabbing data from a new API, parsing and persisting the data, and rendering it in a UITableView.
-In this particular case, the development of the backend API was being done by a separate set of people and was using a new backend infrastructure separate from the old API infrastructure.
-                  <a href="https://anayini.github.io/post/2017-07-11-ios-charles-proxy/" class="post-read-more">[Read More]</a>
-                
-              </div>
-    
-              
-                <span class="post-meta">
-                  
-                    #<a href="/tags/ios">ios</a>&nbsp;
-                  
-                    #<a href="/tags/debugging">debugging</a>&nbsp;
-                  
-                    #<a href="/tags/networking">networking</a>&nbsp;
-                  
-                </span>
-              
-    
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/">
-                <h2 class="post-title">Review of Phuket Dragon Muay Thai</h2>
-    
-                
-              </a>
-    
-              <p class="post-meta">
-                Posted on July 10, 2017
-              </p>
-              <div class="post-entry">
-                
-                  It is a hot, humid morning on Phuket&rsquo;s Soi Tai-ed, what has been called a mecca for &ldquo;fitness holidays&rdquo;. All year round, foreigners come here from all over the world to spend anywhere from weeks to months getting in shape. This single street has dozens of gyms and studios with people learning everything from weightlifting to yoga to MMA. Still, the street is most famous as a destination to learn Thailand&rsquo;s national sport: Muay Thai.
-                  <a href="https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/" class="post-read-more">[Read More]</a>
-                
-              </div>
-    
-              
-                <span class="post-meta">
-                  
-                    #<a href="/tags/muay-thai">muay thai</a>&nbsp;
-                  
-                    #<a href="/tags/boxing">boxing</a>&nbsp;
-                  
-                    #<a href="/tags/thailand">thailand</a>&nbsp;
-                  
-                    #<a href="/tags/phuket">phuket</a>&nbsp;
-                  
-                </span>
-              
-    
-            </article>
-          
-        </div>
+
+<p>I was recently working on a project where I encountered a bit of slow down in
+debugging some API calls.  The project can be simplified as grabbing data from a
+new API, parsing and persisting the data, and rendering it in a <code>UITableView</code>.<br />
+In this particular case, the development of the backend API was being done by a separate
+set of people and was using a new backend infrastructure separate from the old API
+infrastructure.  This meant that the requests going out didn&rsquo;t have the standard
+structure that I was used to.</p>
+
+<p>A few problems arose in nailing down the shape of the HTTP request, which I solved
+simply by using <code>lldb</code> to break in our networking code.  Still, it involved breaking in some
+delegate methods and translating my result to something I could easily communicate to the backend
+team was a bit of an annoyance.  In this case it would have been a lot simpler to just intercept and
+inspect the requests with a tool.  Enter <strong>Charles Proxy</strong>.</p>
+
+<h3 id="charles-proxy">Charles Proxy</h3>
+
+<p>Charles Proxy is a web debugging proxy.  It is a tool you can run on your machine that can
+capture out going network requests and incoming responses and allow you to inspect and even modify them.
+You can download Charles Proxy here.</p>
+
+<p>To get setup debugging Charles has to intercept your requests.  It can basically do this out of the box.  All
+you need to do is run the program, open your simulator and make a network request.  In most cases though,
+you are (hopefully) using HTTPS, and in order to intecept these requests, we need to ensure that the proper
+certificates are installed on you simulator.  To do that there are a few simple steps:</p>
+
+<ol>
+<li>From the <code>Proxy</code> menu, choose <code>SSL Proxying Settings</code>, select the checkbox to <code>Enable SSL Proxying</code>,
+and add an entry for the host and port you want SSL proxying for.  Wildcards are supported.</li>
+<li>From the <code>Help</code> menu of Charles, select <code>Help &gt; SSL Proxying &gt; Install Charles Root Certificate on iOS Simulators</code>.
+This will automatically install the Charles Root Certificate into your simulators which will allow the SSL trust
+chain to work.</li>
+<li>You may also need to go to your Simulator and into <code>Settings &gt; General &gt; About &gt; Certificate Trust Settings</code> and
+<code>Enable Full Trust For Root Certificates</code> after installing the Charles Root Certificate.  This may be done by default
+on some versions of iOS.</li>
+</ol>
+
+<p>From here you should be able to make an HTTPS request and see it appear in the Charles UI.  I recommend switching
+to the <code>Sequence</code> view instead of using the <code>Structure</code> view as I find it easier to read.</p>
+
+<p>And thats about it!  It is unlikely that you&rsquo;ll need to use this daily, but there are times it comes in very handy and its
+a great tool to have in your toolbox.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
         
-      </div>
+          <li class="previous">
+            <a href="https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/" data-toggle="tooltip" data-placement="top" title="Review of Phuket Dragon Muay Thai">&larr; Previous Post</a>
+          </li>
+        
+        
+      </ul>
+
+      
+        
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">

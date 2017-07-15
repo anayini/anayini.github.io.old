@@ -7,19 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>aanayini@gmail.com (Arjun Nayini)</managingEditor>
     <webMaster>aanayini@gmail.com (Arjun Nayini)</webMaster>
-    <lastBuildDate>Sun, 09 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://anayini.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>v0.0</title>
-      <link>https://anayini.github.io/post/2017-07-09-hello-world/</link>
-      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      <title>iOS Network Debugging With Charles Proxy</title>
+      <link>https://anayini.github.io/post/2017-07-11-ios-charles-proxy/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
       <author>aanayini@gmail.com (Arjun Nayini)</author>
-      <guid>https://anayini.github.io/post/2017-07-09-hello-world/</guid>
-      <description>Under construction&amp;hellip;
-Still testing deployment method.</description>
+      <guid>https://anayini.github.io/post/2017-07-11-ios-charles-proxy/</guid>
+      <description>I was recently working on a project where I encountered a bit of slow down in debugging some API calls. The project can be simplified as grabbing data from a new API, parsing and persisting the data, and rendering it in a UITableView.
+In this particular case, the development of the backend API was being done by a separate set of people and was using a new backend infrastructure separate from the old API infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Review of Phuket Dragon Muay Thai</title>
+      <link>https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/</guid>
+      <description>It is a hot, humid morning on Phuket&amp;rsquo;s Soi Tai-ed, what has been called a mecca for &amp;ldquo;fitness holidays&amp;rdquo;. All year round, foreigners come here from all over the world to spend anywhere from weeks to months getting in shape. This single street has dozens of gyms and studios with people learning everything from weightlifting to yoga to MMA. Still, the street is most famous as a destination to learn Thailand&amp;rsquo;s national sport: Muay Thai.</description>
     </item>
     
     <item>
@@ -28,7 +37,10 @@ Still testing deployment method.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>aanayini@gmail.com (Arjun Nayini)</author>
       <guid>https://anayini.github.io/page/about/</guid>
-      <description>Hi I&amp;rsquo;m Arjun</description>
+      <description>My name is Arjun Nayini and I&amp;rsquo;m an iOS engineer based out of San Francisco.
+I work for PlanGrid making construction productivity software.
+Before that, I worked at Palantir on projects in health insurance, federal government and local law enforcement and interned at Google.
+Outside of software I like to practice Muay Thai, taste teas, and explore the Bay Area.</description>
     </item>
     
   </channel>
