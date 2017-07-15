@@ -7,7 +7,7 @@ pygmentsUseClasses = true
 pygmentCodeFences = true
 
 [Params]
-  subtitle = "building; brewing; boxing"
+  subtitle = "building, boxing, brewing"
   logo = "images/avatars/github.jpg"
   favicon = "img/sphere.png"
   dateFormat = "January 2, 2006"
