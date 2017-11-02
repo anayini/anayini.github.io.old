@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on b³</title>
+    <link>https://anayini.github.io/page/</link>
+    <description>Recent content in Pages on b³</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aanayini@gmail.com (Arjun Nayini)</managingEditor>
+    <webMaster>aanayini@gmail.com (Arjun Nayini)</webMaster>
+    
+	<atom:link href="https://anayini.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://anayini.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/page/about/</guid>
+      <description>My name is Arjun Nayini and I&amp;rsquo;m an iOS engineer based out of San Francisco.
+I work for PlanGrid making construction productivity software.
+Before that, I worked at Palantir on projects in health insurance, federal government and local law enforcement and interned at Google.
+Outside of software I like to practice Muay Thai, taste teas, and explore the Bay Area.</description>
+    </item>
+    
+  </channel>
+</rss>

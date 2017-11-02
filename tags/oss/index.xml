@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oss on b³</title>
+    <link>https://anayini.github.io/tags/oss/</link>
+    <description>Recent content in Oss on b³</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aanayini@gmail.com (Arjun Nayini)</managingEditor>
+    <webMaster>aanayini@gmail.com (Arjun Nayini)</webMaster>
+    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://anayini.github.io/tags/oss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Contribution to Swift</title>
+      <link>https://anayini.github.io/post/2017-07-20-contributing-to-swift/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/post/2017-07-20-contributing-to-swift/</guid>
+      <description>My first contribution to the Swift programming language was merged earlier this year. Despite the simplicity of the bug I fixed, the process took awhile and I learned a good deal in the process. This post will briefly go over the fix I made and some give some advice for future contributors.
+After deciding to contribute I browsed the Swift Jira to find a suitable beginner bug. The first thing I did was filter for issues within the Standard Library and the Swift Package Manager.</description>
+    </item>
+    
+  </channel>
+</rss>

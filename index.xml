@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>b³</title>
+    <link>https://anayini.github.io/</link>
+    <description>Recent content on b³</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aanayini@gmail.com (Arjun Nayini)</managingEditor>
+    <webMaster>aanayini@gmail.com (Arjun Nayini)</webMaster>
+    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://anayini.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Contribution to Swift</title>
+      <link>https://anayini.github.io/post/2017-07-20-contributing-to-swift/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/post/2017-07-20-contributing-to-swift/</guid>
+      <description>My first contribution to the Swift programming language was merged earlier this year. Despite the simplicity of the bug I fixed, the process took awhile and I learned a good deal in the process. This post will briefly go over the fix I made and some give some advice for future contributors.
+After deciding to contribute I browsed the Swift Jira to find a suitable beginner bug. The first thing I did was filter for issues within the Standard Library and the Swift Package Manager.</description>
+    </item>
+    
+    <item>
+      <title>iOS Network Debugging With Charles Proxy</title>
+      <link>https://anayini.github.io/post/2017-07-11-ios-charles-proxy/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/post/2017-07-11-ios-charles-proxy/</guid>
+      <description>I was recently working on a project where I encountered a bit of slow down in debugging some API calls. The project can be simplified as grabbing data from a new API, parsing and persisting the data, and rendering it in a UITableView.
+In this particular case, the development of the backend API was being done by a separate set of people and was using a new backend infrastructure separate from the old API infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>Review of Phuket Dragon Muay Thai</title>
+      <link>https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/post/2017-07-10-phuket-dragon-muay-thai-initial-impressions/</guid>
+      <description>It is a hot, humid morning on Phuket&amp;rsquo;s Soi Tai-ed, what has been called a mecca for &amp;ldquo;fitness holidays&amp;rdquo;. All year round, foreigners come here from all over the world to spend anywhere from weeks to months getting in shape. This single street has dozens of gyms and studios with people learning everything from weightlifting to yoga to MMA. Still, the street is most famous as a destination to learn Thailand&amp;rsquo;s national sport: Muay Thai.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://anayini.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/page/about/</guid>
+      <description>My name is Arjun Nayini and I&amp;rsquo;m an iOS engineer based out of San Francisco.
+I work for PlanGrid making construction productivity software.
+Before that, I worked at Palantir on projects in health insurance, federal government and local law enforcement and interned at Google.
+Outside of software I like to practice Muay Thai, taste teas, and explore the Bay Area.</description>
+    </item>
+    
+  </channel>
+</rss>

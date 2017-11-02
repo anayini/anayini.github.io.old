@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on b³</title>
+    <link>https://anayini.github.io/tags/</link>
+    <description>Recent content in Tags on b³</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aanayini@gmail.com (Arjun Nayini)</managingEditor>
+    <webMaster>aanayini@gmail.com (Arjun Nayini)</webMaster>
+    <lastBuildDate>Mon, 10 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://anayini.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Boxing</title>
+      <link>https://anayini.github.io/tags/boxing/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/boxing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debugging</title>
+      <link>https://anayini.github.io/tags/debugging/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/debugging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
+      <link>https://anayini.github.io/tags/ios/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Muay Thai</title>
+      <link>https://anayini.github.io/tags/muay-thai/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/muay-thai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>https://anayini.github.io/tags/networking/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oss</title>
+      <link>https://anayini.github.io/tags/oss/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/oss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phuket</title>
+      <link>https://anayini.github.io/tags/phuket/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/phuket/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://anayini.github.io/tags/programming/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swift</title>
+      <link>https://anayini.github.io/tags/swift/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/swift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thailand</title>
+      <link>https://anayini.github.io/tags/thailand/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/tags/thailand/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
