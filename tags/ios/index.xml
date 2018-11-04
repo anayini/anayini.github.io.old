@@ -32,5 +32,14 @@ After deciding to contribute I browsed the Swift Jira to find a suitable beginne
 In this particular case, the development of the backend API was being done by a separate set of people and was using a new backend infrastructure separate from the old API infrastructure.</description>
     </item>
     
+    <item>
+      <title>Debugging an ISO8601 Parsing Issue</title>
+      <link>https://anayini.github.io/post/2018-11-04-iso8601-bug/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/post/2018-11-04-iso8601-bug/</guid>
+      <description>Initial testing post</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bug on b³</title>
+    <link>https://anayini.github.io/tags/bug/</link>
+    <description>Recent content in Bug on b³</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>aanayini@gmail.com (Arjun Nayini)</managingEditor>
+    <webMaster>aanayini@gmail.com (Arjun Nayini)</webMaster>
+    <lastBuildDate>Mon, 10 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://anayini.github.io/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debugging an ISO8601 Parsing Issue</title>
+      <link>https://anayini.github.io/post/2018-11-04-iso8601-bug/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      <author>aanayini@gmail.com (Arjun Nayini)</author>
+      <guid>https://anayini.github.io/post/2018-11-04-iso8601-bug/</guid>
+      <description>Initial testing post</description>
+    </item>
+    
+  </channel>
+</rss>
